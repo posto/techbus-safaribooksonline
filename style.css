@@ -1,0 +1,43 @@
+@-moz-document domain("techbus.safaribooksonline.com") {
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+div#readercontent, div.htmlcontent {
+    background-color: #EFE0B9; /*sepia*/
+
+}
+
+div.htmlcontent > h1 {
+    font-family: 'Droid Serif', serif;
+}
+
+div.htmlcontent > h2 {
+    font-family: 'Droid Serif', serif;
+}
+
+div.htmlcontent > h3 {
+    font-family: 'Droid Serif', serif;
+}
+
+div.htmlcontent > h4 {
+    font-family: 'Droid Serif', serif;
+}
+
+div.htmlcontent > p {
+    font-family: Literata, serif; 
+}
+
+
+div.htmlcontent > pre, 
+div.htmlcontent > pre > code,
+div.htmlcontent .epub__code 
+{
+    font-family: 'Source Code Pro', Consolas, monospace !important;
+}
+
+div.htmlcontent > pre code.epub__typename {
+    font-weight: bold;
+}
+
+
+}
